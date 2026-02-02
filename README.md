@@ -66,20 +66,37 @@ Analyzing_Startup_Investments/
 ---
 
 ## Task 4: Keyword Analysis
-- **Query:** **Query:** [task4_cleantech_names.sql](queries/task4_cleantech_names.sql)  
+- **Query:** [task4_cleantech_names.sql](queries/task4_cleantech_names.sql)  
 
 **Answer:**  
 - **275 cleantech companies** have `solar`, `power`, or `energy` in their names
 
 ---
 
-## Conclusion
-This Milestone demonstrates how SQL can:
-- Identify top-funded startups  
-- Examine failure risk among highly-funded companies  
-- Analyze industry-specific trends, especially in cleantech  
+## Key Insights
 
-Cleantech remains a **high-risk, high-reward** sector, requiring careful evaluation before investment.
+- Extremely high funding does not guarantee long-term success.
+- Cleantech companies appear frequently among highly funded failures.
+- Capital-intensive industries may face greater operational and market risks.
+- Funding alone is insufficient without sustainable business models and execution.
+
+---
+
+## Conclusion
+
+This milestone demonstrates how SQL can be used to:
+- Identify highly funded startups
+- Analyze company outcomes and failure risk
+- Evaluate industry-specific investment trends, particularly in cleantech
+
+The results suggest that while cleantech attracts significant investment, it also carries elevated risk. These findings highlight the importance of evaluating business fundamentals, market readiness, and long-term sustainability alongside funding totals.  
+
+---
+
+## Data Source & Credits
+
+This project uses startup investment data sourced from **Crunchbase**.  
+Credit to Crunchbase for providing the dataset used in this analysis.
 
 ---
 
