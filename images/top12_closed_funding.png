@@ -1,0 +1,26 @@
+import matplotlib.pyplot as plt
+
+# Company names
+companies = [
+    "Abound Solar", "Amp'd Mobile", "AltraBiofuels", "SolFocus", "Range Fuels",
+    "Biolex Therapeutics", "SulfurCell", "CipherMax", "NeoVista",
+    "Pocket Communications NE", "Ausra", "Cellerix"
+]
+
+# Funding in USD
+funding = [
+    510_000_000, 374_000_000, 228_500_000, 211_403_000, 186_190_000,
+    172_264_126, 158_700_000, 141_535_713, 130_003_458,
+    125_000_000, 123_300_000, 115_577_500
+]
+
+# Highlight cleantech companies
+colors = ['orange' if c.lower().find('cleantech') != -1 or c in ["Abound Solar", "AltraBiofuels", "SolFocus", "Range Fuels", "SulfurCell", "Ausra"] else 'blue' for c in companies]
+
+plt.figure(figsize=(12,6))
+plt.barh(companies[::-1], [f/1e6 for f in funding[::-1]], color=colors[::-1])
+plt.xlabel("Funding (Millions USD)")
+plt.title("Top 12 Closed Companies by Funding")
+plt.tight_layout()
+plt.savefig("images/top12_closed_funding.png")
+plt.show()
