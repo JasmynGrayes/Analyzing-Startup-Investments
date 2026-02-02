@@ -93,6 +93,16 @@ The results suggest that while cleantech attracts significant investment, it als
 
 ---
 
+## Technical Skills Demonstrated
+
+- SQL aggregation and filtering
+- GROUP BY and ORDER BY analysis
+- Industry-specific data segmentation
+- Data-driven risk evaluation
+- Basic data visualization with Python
+  
+---
+
 ## Data Source & Credits
 
 This project uses startup investment data sourced from **Crunchbase**.  
