@@ -80,3 +80,10 @@ This Milestone demonstrates how SQL can:
 - Analyze industry-specific trends, especially in cleantech  
 
 Cleantech remains a **high-risk, high-reward** sector, requiring careful evaluation before investment.
+
+---
+
+## Author
+**Jasmyn Grayes**  
+Aspiring IT / Cybersecurity & Data Professional  
+GitHub: https://github.com/JasmynGrayes
