@@ -104,6 +104,7 @@ The results suggest that while cleantech attracts significant investment, it als
 - GROUP BY and ORDER BY analysis
 - Industry-specific data segmentation
 - Data-driven risk evaluation
+-  Basic data visualization with Python
   
 ---
 
