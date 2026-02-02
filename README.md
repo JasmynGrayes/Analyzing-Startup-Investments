@@ -55,6 +55,11 @@ Analyzing_Startup_Investments/
 - **All top 12 funded companies are closed**  
 - **6 of 12 are cleantech** (Abound Solar, AltraBiofuels, SolFocus, Range Fuels, SulfurCell, Ausra)  
 
+### Top 12 Closed Companies by Funding
+
+![Top 12 Closed Companies Funding](images/top12_closed_funding.png)
+
+
 ## Task 3: Cleantech Analysis
 - **Query:** [task3_cleantech_analysis.sql](queries/task3_cleantech_analysis.sql) 
 
