@@ -1,4 +1,4 @@
-# Analyzing Startup Investments | Milestone 2
+# Analyzing Startup Investments with SQL
 
 ## Introduction
 This project uses Crunchbase company data to analyze startup investments, funding patterns, and company outcomes. The goal is to evaluate high-potential startups for investment, with a focus on **cleantech** and understanding why some highly-funded startups fail.
@@ -107,6 +107,14 @@ The results suggest that while cleantech attracts significant investment, it als
 
 This project uses startup investment data sourced from **Crunchbase**.  
 Credit to Crunchbase for providing the dataset used in this analysis.
+
+---
+
+## How to Run This Project
+
+1. Load the `crunchbase.companies` dataset into your SQL environment  
+2. Run the queries in the `queries/` folder in task order  
+3. (Optional) Use the Python script in `charts/` to generate visualizations
 
 ---
 
